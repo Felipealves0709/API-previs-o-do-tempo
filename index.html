@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruxelas- Previsão do Tempo</title>
+    <link rel="shortcut icon" href="nuvem.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="big-box">
+        <input class="input-city" placeholder="Digite o nome da cidade">
+        <button class="search">
+            <img id="img-search" src="lupa.png" alt="Busca" onclick="clickbutton()">
+        </button>
+
+        <div class="medium-box">
+            <h2 class="city">Tempo em são paulo</h2>
+            <p class="temp">21°C</p>
+
+
+            <div class="small-box">
+                <img class="img-prev" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">  <p class="text-prev">Nublado</p>
+            </div>
+            <p class="umidade">Umidade: 76%</p>
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
